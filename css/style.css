@@ -1,0 +1,17 @@
+/*body fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
+
+/*common css*/
+body{font-family:'Montserrat', sans-serif;background:#140001;color:#fff;}
+h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
+
+/*****layout css*****/
+.main--wrapper, .box{display:inline-block;width:100%;}
+
+/*header*/
+.header--wrapper{height:143px;width:100%;background:url(../images/header-bg.png) repeat-x 0 0;}
+.header--top{height:46px;}
+.header--top-left{float:left;}
+.header--top-right{float:right;}
+.header--link{color:#694900;}
