@@ -17,14 +17,28 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .header--top-right{float:right;}
 .header--list{margin:0;padding: 0;list-style: none;}
 .header--list-item{float:left;padding:0 15px;border-right:1px solid #f1a700;border-left:1px solid #fbd25e;}
-.header--link{font-size:.9333rem;color:#694900;transition:all ease .3s;}
+.header--link{padding-left:25px;font-size:.9333rem;color:#694900;transition:all ease .3s;}
 .header--link:hover{color:#fff;text-decoration:none;}
+.header--link-language{background: url(../images/language.png) no-repeat 0 0;}
+.header--link-facebook{background: url(../images/fb-icn.png) no-repeat 0 0;}
+.header--link-twitter{background: url(../images/twitter-icn.png) no-repeat 0 2px;}
+.header--link-question{background: url(../images/question-icn.png) no-repeat 0 2px;}
+.header--link-login{padding-left:30px;background: url(../images/login-icn.png) no-repeat 0 2px;}
+.header--link-register{padding-left:35px;background: url(../images/register-icn.png) no-repeat 0 2px;}
+
 .header--bottom{}
 .header--bottom-nav{padding:10px 0;}
 .navbar--brand-logo{width:auto;padding:0;margin: -2px 0 0 -12px;}
-.header--bottom-nav--link{font-size:1rem;color:#694900;transition:all ease .3s;text-transform:uppercase;}
+.header--bottom-nav--link{padding-left:25px !important;font-size:1rem;color:#694900;transition:all ease .3s;text-transform:uppercase;}
 .header--bottom-nav--link:hover{color:#fff;}
 .header--bottom-navbar--nav{margin:12px 0 0 60px;}
+.header--bottom-navbar--nav-item{padding:0 20px;background: url(../images/header-nav-divider.png) no-repeat center right;}
+.header--bottom-navbar--nav-item:last-child{background:none;}
+.header--bottom-nav--link-home{background: url(../images/home-icn.png) no-repeat 0 10px;}
+.header--bottom-nav--link-pages{background: url(../images/pages-icn.png) no-repeat 0 10px;}
+.header--bottom-nav--link-play{background: url(../images/play-icn.png) no-repeat 0 10px;}
+.header--bottom-nav--link-game{background: url(../images/game-icn.png) no-repeat 0 10px;}
+.header--bottom-nav--link-tournament{background: url(../images/tournament-icn.png) no-repeat 0 10px;}
 
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
