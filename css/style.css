@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .navbar--toggler-btn{width:42px;height:42px;margin-top:8px;padding:0;line-height:10px;}
 .navbar--toggler-btn--icon{height:3px;margin-bottom:2px;background-color:#fff;}
 
-/*header*/
+/*header-top*/
 .header--wrapper{height:143px;width:100%;background:url(../images/header-bg.png) repeat-x 0 0;}
 .header--top{height:46px;padding:12px 0;}
 .header--top-left{float:left;}
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .header--link-question{background: url(../images/question-icn.png) no-repeat 0 2px;}
 .header--link-login{padding-left:30px;background: url(../images/login-icn.png) no-repeat 0 2px;}
 .header--link-register{padding-left:35px;background: url(../images/register-icn.png) no-repeat 0 2px;}
-
+/*header-bottom*/
 .header--bottom{}
 .header--bottom-nav{padding:5px 0;}
 .navbar--brand-logo{width:auto;padding:0;margin: -2px 0 0 -12px;}
@@ -49,6 +49,10 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .carousel--sub-title{font-family:'Oswald', sans-serif;font-size:2.333rem;color:#b6787b;text-transform:uppercase;}
 .carousel--description{margin:36px 0 0;font-size:1.2rem;color#fff;}
 .carousel--btn{margin:60px 0 0;}
+
+/*slider*/
+.slider--wrapper{height:507px;margin-top:40px;padding-top:200px;background:url(../images/slider-bg.png) no-repeat 0 0;}
+.slider--title{font-size:4.666rem;font-weight:400;}
 
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
