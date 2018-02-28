@@ -70,7 +70,8 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .steps--box:hover{color:#694900;}
 
 /*features game*/
-.features--game-wrapper{}
+.features--game-wrapper{margin-top:148px;}
+.features--game-title{margin-bottom:65px;text-align:center;font-size:4rem;color:#f0c700;text-transform:uppercase;}
 
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
