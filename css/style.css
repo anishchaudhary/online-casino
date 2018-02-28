@@ -7,6 +7,7 @@
 html{font-size:15px;}
 body{font-family:'Montserrat', sans-serif;font-size:1rem;background:#140001;color:#fff;}
 h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
+.transition--effect{transition:all ease .3s;}
 
 /*****layout css*****/
 .main--wrapper, .box{display:inline-block;width:100%;}
@@ -70,8 +71,25 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .steps--box:hover{color:#694900;}
 
 /*features game*/
-.features--game-wrapper{margin-top:148px;}
+.features--game-wrapper{padding:148px 0 60px;}
 .features--game-title{margin-bottom:65px;text-align:center;font-size:4rem;color:#f0c700;text-transform:uppercase;}
+.features--game-box{width:170px;height:190px;padding: 27px 15px;background-color:#370a0c;background-repeat:no-repeat;border-radius:6px;}
+.features--game-box--black-jack{background-image:url(../images/black-jack-img.png);background-position: center 100px;}
+.features--game-box--craps{background-image:url(../images/craps-img.png);background-position: center 86px;}
+.features--game-box--classic-slots{background-image:url(../images/classic-slots-img.png);background-position: center 108px;}
+.features--game-box--roulette{background-image:url(../images/roulette-img.png);background-position: center 98px;}
+.features--game-box--poker{background-image:url(../images/poker-img.png);background-position: center 99px;}
+.features--game-box--other{background-image:url(../images/other-img.png);background-position: center 99px;}
+.features--game-box--title{font-size:1.2rem;color:#b6787b;text-align: center;}
+.features--game-box:hover{cursor: pointer;}
+.features--game-box:hover .features--game-box--title{color:#fff;text-shadow:3px 3px 25px rgba(199,34,42,1);}
+.features--game-box.features--game-box--black-jack:hover{background-image:url(../images/black-jack-img-active.png);}
+.features--game-box.features--game-box--craps:hover{background-image:url(../images/craps-img-active.png);background-position: center 86px;}
+.features--game-box.features--game-box--classic-slots:hover{background-image:url(../images/classic-slots-img-active.png);background-position: center 108px;}
+.features--game-box.features--game-box--roulette:hover{background-image:url(../images/roulette-img-active.png);background-position: center 98px;}
+.features--game-box.features--game-box--poker:hover{background-image:url(../images/poker-img-active.png);background-position: center 99px;}
+.features--game-box.features--game-box--other:hover{background-image:url(../images/other-img-active.png);background-position: center 99px;}
+
 
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
