@@ -1,6 +1,7 @@
 /*body fonts*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Coda:400,800');
 
 /*common css*/
 html{font-size:15px;}
@@ -53,6 +54,23 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 /*slider*/
 .slider--wrapper{height:507px;margin-top:40px;padding-top:200px;background:url(../images/slider-bg.png) no-repeat 0 0;}
 .slider--title{font-size:4.666rem;font-weight:400;}
+.slider--subtitle{width:auto;float:left;margin-top:116px;font-size:3.333rem;font-weight:400;color:#fff;}
+.slider--amount-container{float:left;margin-top:30px;}
+.slider--amount-box{width:50px;height:55px;float:left;margin-right:8px;line-height:55px;text-align:center;font-size:2.333rem;}
+.slider--amount-currency{background:url(../images/input-bg.png) no-repeat 0 0;}
+.slider--amount-box--separator{width:8px;float:left;margin:16px 5px 0 0;text-align:center;font-size:2rem;}
+
+/*steps*/
+.steps--wrapper{margin-top:-55px;}
+.steps--box{width:370px;height:105px;display:inline-block;padding:20px 40px 20px 0;font-family:'Oswald', sans-serif;color:#694900;background:url(../images/step-bg.png) no-repeat 0 0;}
+.steps--box-left{width:90px;float:left;padding:0 20px;font-size:3.333rem;line-height:60px;text-align:center;}
+.steps--box-right{padding-left:35px;float:left;width:240px;}
+.steps--box-title{margin:0 0 8px;font-family:'Oswald', sans-serif;font-size:2.333rem;line-height:1;font-weight:500;}
+.steps--box-subtitle{margin:0;font-family:'Montserrat', sans-serif;font-size:1.2rem;font-weight:500;}
+.steps--box:hover{color:#694900;}
+
+/*features game*/
+.features--game-wrapper{}
 
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
