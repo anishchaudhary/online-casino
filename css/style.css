@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .main--wrapper, .box{display:inline-block;width:100%;}
 .navbar--toggler-btn{width:42px;height:42px;margin-top:8px;padding:0;line-height:10px;}
 .navbar--toggler-btn--icon{height:3px;margin-bottom:2px;background-color:#fff;}
+.rating--star{margin-right:3px;float:left;}
 
 /*header-top*/
 .header--wrapper{height:143px;width:100%;background:url(../images/header-bg.png) repeat-x 0 0;}
@@ -73,7 +74,7 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 /*features game*/
 .features--card-wrapper{padding:148px 0 60px;}
 .features--card-title{margin-bottom:65px;text-align:center;font-size:4rem;color:#f0c700;text-transform:uppercase;}
-.features--card{height:190px;padding:27px 15px;background-color:#370a0c;background-repeat:no-repeat;border-radius:6px;}
+.features--card{height:190px;padding:27px 25px;background-color:#370a0c;background-repeat:no-repeat;border-radius:6px;}
 .features--card--black-jack{background-image:url(../images/black-jack-img.png);background-position: center 100px;}
 .features--card--craps{background-image:url(../images/craps-img.png);background-position: center 86px;}
 .features--card--classic-slots{background-image:url(../images/classic-slots-img.png);background-position: center 108px;}
@@ -92,6 +93,13 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .features--mid-card{padding-top:60px;}
 .features--card-wide{height:170px;margin-bottom:30px;}
 .features--card-high{height:370px;margin-bottom:30px;}
+.features--card-advertisement{background-color:#f3b101;}
+.features--card-advertisement:hover{cursor:default;}
+.features--card-title--advertisement{font-size:1.2rem;font-weight:500;color:#694900;text-align:left;}
+.features--card-advertisement:hover .features--card--title{color:#694900;text-shadow:none;}
+.features--card-advertisement--btn{display:inline-block;width:180px;}
+.features--card-ribbon{position:absolute;top:-1px;left:-5px;}
+
 
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
