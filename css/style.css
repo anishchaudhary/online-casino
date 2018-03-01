@@ -142,6 +142,11 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .jackpot--card-footer--right{float:right;}
 .jackpot--winners-row{padding:25px 0;font-size:1.0666rem;color:#b6787b;border-bottom:2px dotted #5b2628;}
 .jackpot--winners-row--amount{font-size:1.666rem;color:#fff;}
+.jackpot--upcoming-row{padding-top: 35px;}
+.jackpot--total-label{float: left;font-family:'Oswald', sans-serif;font-size:1.666rem;color:#b6787b;}
+.jackpot--total-value{float: right;font-size:1.666rem;color:#fff;}
+.jackpot--card-upcoming{height:100px;}
+.jackpot--card-description--amount-upcomking{font-size:1.2rem;}
 
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
