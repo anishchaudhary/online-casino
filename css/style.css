@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 /*jackpots*/
 .jackpot--wrapper{padding:135px 0 110px;background:#370a0c;}
 .jackpot--title{margin-bottom:65px;text-align:center;font-size:4rem;color:#f0c700;text-transform:uppercase;}
-.jackpot--subtitle{padding-bottom:23px;font-size:1.6rem;color:#b6787b;text-transform:uppercase;border-bottom:2px dotted #5b2628;}
+.jackpot--subtitle{padding-bottom:23px;margin-bottom:0;font-size:1.6rem;color:#b6787b;text-transform:uppercase;border-bottom:2px dotted #5b2628;}
 .jackpot--progressive-row{padding-top:40px;}
 .jackpot--card{width:170px;height: 170px;float:left;margin-right:30px;background: #51181a;}
 .jackpot--card-body{padding-left:1rem;padding-right:1rem;}
@@ -140,6 +140,8 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .jackpot--card-footer--left{float:left;margin-top:7px;font-size:0.9333rem;color:#694900;}
 .jackpot--card-footer--left-img{margin:4px 5px 0 0;float:left;}
 .jackpot--card-footer--right{float:right;}
+.jackpot--winners-row{padding:25px 0;font-size:1.0666rem;color:#b6787b;border-bottom:2px dotted #5b2628;}
+.jackpot--winners-row--amount{font-size:1.666rem;color:#fff;}
 
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
