@@ -111,6 +111,23 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .faq--accordion--card-header--btn:focus{text-decoration:none;}
 .faq--accordion--card-header--big{padding: 13px 26px;background-image:url(../images/accordion-header-bg-big.png);}
 
+/*recent winners*/
+.recent-winners--card{padding:35px 50px;height:400px;background-color:#370a0c;}
+.recent-winners--title, .card--super-spin--title{margin-bottom:30px;font-size:2.666rem;font-weight:500;text-align:left;color:#f0c700;text-transform:uppercase;}
+.recent-winners--card-body{max-height:315px;overflow-y:auto;}
+.recent-winners--table{margin:0;font-size:1rem;font-weight:700;color:#b6787b;}
+.recent-winners--amount{color:#fff;}
+
+/*super spin*/
+.card--super-spin{padding:30px 60px;height:235px;margin-top:40px;background:#370a0c;}
+.card--super-spin--title{margin-bottom:5px;text-align:center;}
+.card--super-spin--sub-title{font-size:3.333rem;text-align:center;text-transform:uppercase;}
+.card--super-spin--btn{margin-top:5px;text-align:center;}
+
+/*jackpots*/
+.jackpot--wrapper{padding:135px 0 110px;background:#370a0c;}
+.jackpot--title{margin-bottom:65px;text-align:center;font-size:4rem;color:#f0c700;text-transform:uppercase;}
+
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
 .no--padd-right{padding-right:0;}
@@ -119,6 +136,10 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .no--border{border:none;}
 .no--border-left{border-left:none;}
 .no--border-right{border-right:none;}
+.recent-winners--table tr td{padding:.5rem .65rem;border:none;}
+.recent-winners--table tr td:first-child{padding-left:0;padding-right:0;}
+.recent-winners--table tr td:last-child{padding-right:0;}
+.recent-winners--table tr:last-child td{padding-bottom:0;}
 
 @media (min-width: 1200px){
     .container{max-width: 1170px;}
