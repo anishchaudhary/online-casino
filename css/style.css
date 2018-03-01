@@ -72,8 +72,8 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .steps--box:hover{color:#694900;}
 
 /*features game*/
-.features--card-wrapper{padding:148px 0 60px;}
-.features--card-title{margin-bottom:65px;text-align:center;font-size:4rem;color:#f0c700;text-transform:uppercase;}
+.features--card-wrapper{padding:148px 0 110px;}
+.features--card-games--title{margin-bottom:65px;text-align:center;font-size:4rem;color:#f0c700;text-transform:uppercase;}
 .features--card{height:190px;padding:27px 25px;background-color:#370a0c;background-repeat:no-repeat;border-radius:6px;}
 .features--card--black-jack{background-image:url(../images/black-jack-img.png);background-position: center 100px;}
 .features--card--craps{background-image:url(../images/craps-img.png);background-position: center 86px;}
@@ -100,6 +100,16 @@ h1, h2, h3, h4, h5, h6{font-family: 'Oswald', sans-serif;}
 .features--card-advertisement--btn{display:inline-block;width:180px;}
 .features--card-ribbon{position:absolute;top:-1px;left:-5px;}
 
+/*faq*/
+.faq--wrapper{padding-bottom:150px;}
+.faq--title{margin-bottom:40px;font-size:2.666rem;font-weight:500;text-align:left;color:#f0c700;text-transform:uppercase;}
+.faq--accordion-card{padding:0;margin-bottom:21px;background:none;border:none;}
+.faq--accordion--card-header{padding:10px 26px;max-width:570px;background-color:none;background:url(../images/accordion-header-bg.png) no-repeat 0 0}
+.faq--accordion--card-body{padding:13px 26px;margin-top:16px;max-width:570px;font-size:1.0666rem;line-height:2rem;color:#b6787b;background:#370a0c;border-radius:6px;}
+.faq--accordion--card-header--btn{padding:0;width:100%;font-family:'Montserrat', sans-serif;font-size:1.0666rem;color:#ffa400;background:url(../images/accordion-header-arrow.png) no-repeat right 6px;text-align:left;}
+.faq--accordion--card-header--btn:hover{color:#fff;background-image:url(../images/accordion-header-arrow-down.png);background-position:right 8px;text-decoration:none;}
+.faq--accordion--card-header--btn:focus{text-decoration:none;}
+.faq--accordion--card-header--big{padding: 13px 26px;background-image:url(../images/accordion-header-bg-big.png);}
 
 /*common overwrite css*/
 .no--padd-left{padding-left:0;}
